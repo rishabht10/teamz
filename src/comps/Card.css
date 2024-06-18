@@ -1,0 +1,28 @@
+.custm{
+    /* border: 2px solid rgb(80, 80, 80); */
+    box-shadow: 2.6px 2.6px 16px rgb(91, 91, 91);
+}
+
+.custm p{
+    font-size: 22.6px;
+    font-weight: 600;
+}
+
+.custm h5{
+    
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 6px;
+    color: rgb(254, 88, 88);
+}
+
+.custm img{
+    /* border-bottom: 2.6px dashed black; */
+    height: 166px;
+    
+}
+
+.custm:hover{
+    box-shadow: 2.6px 2.6px 16px rgb(255, 97, 97);
+}
+
