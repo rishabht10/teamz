@@ -13,9 +13,9 @@ const Card = (props) => {
   <img src={props.img} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{props.name}</h5>
-    <p className="card-text">{props.sem}</p>
-    <p className="card-text">{props.lang.join(', ')}</p>
-     <p className="card-text">{props.tech}</p>
+    <p className="card-text">Semester : {props.sem}</p>
+    <p className="card-text">Languages : {props.lang.join(', ')}</p>
+     <p className="card-text"> TechStack : {props.tech}</p>
     <a href="#" onClick={func} className="btn btn-danger">Github</a>
   </div>
 </div>

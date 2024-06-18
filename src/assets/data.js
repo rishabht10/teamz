@@ -8,7 +8,7 @@ let data=[{
     img:mern,
     name:"Rishabh Tiwari",
     sem:"6th",
-    lang:["Go","C++","JavaScript"],
+    lang:["Go","C++","JavaScript","Java"],
     techstack: "MERN (React.js,Node.js,Express.js,MDB Atlas)"
 },
 {
