@@ -10,7 +10,7 @@ const Main = () => {
   return (<div className='cards '>
 {data.map((ele)=>{
 
- return <Card img={ele.img} name={ele.name} sem={ele.sem} lang={ele.lang} tech={ele.techstack} /> 
+ return <Card img={ele.img} name={ele.name} sem={ele.sem} lang={ele.lang} git ={ele.git} tech={ele.techstack} /> 
 
 })}
 </div>

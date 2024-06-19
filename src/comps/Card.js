@@ -5,7 +5,7 @@ import './Card.css'
 
 const Card = (props) => {
     
-    let func=()=>{alert("Will be updated soon")}
+    
     
   return (
     <div>
@@ -16,7 +16,7 @@ const Card = (props) => {
     <p className="card-text">Semester : {props.sem}</p>
     <p className="card-text">Languages : {props.lang.join(', ')}</p>
      <p className="card-text"> TechStack : {props.tech}</p>
-    <a href="#" onClick={func} className="btn btn-danger">Github</a>
+    <a href={props.git}  className="btn btn-danger">Github</a>
   </div>
 </div>
 </div>
