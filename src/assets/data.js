@@ -10,7 +10,7 @@ let data=[{
     name:"Rishabh Tiwari",
     sem:"6th",
     lang:["Go","C++","JavaScript","Java"],
-    techstack: "MERN (React.js,Node.js,Express.js,MDB Atlas)"
+    techstack: "MERN (React.js,Node.js,Express,MDB Atlas)"
 },
 {
     img:cpp,

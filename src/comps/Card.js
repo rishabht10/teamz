@@ -16,7 +16,7 @@ const Card = (props) => {
     <p className="card-text">Semester : {props.sem}</p>
     <p className="card-text">Languages : {props.lang.join(', ')}</p>
      <p className="card-text"> TechStack : {props.tech}</p>
-    <a href={props.git}  className="btn btn-danger">Github</a>
+    <a href={props.git}  className="btn btn-success">Github</a>
   </div>
 </div>
 </div>
